@@ -92,7 +92,7 @@ function getFortune() {
     const secondSent = `${directive} ${secondPhrase}.`;
     
     //construct full fortune
-    const fortune = `~~~~~~~~~~~ YOUR FOTUNE AWAITS ~~~~~~~~~~~~\n${firstSent}\n${secondSent}`;
+    const fortune = `~~~~~~~~~~~ YOUR FORTUNE AWAITS ~~~~~~~~~~~~\n${firstSent}\n${secondSent}`;
     return fortune
 }
 
