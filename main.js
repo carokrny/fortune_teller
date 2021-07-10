@@ -74,7 +74,7 @@ function getFortune() {
     const firstPhrases = getPhrases('first', topic);
     const firstPhrase = randPhrase(firstPhrases);
     // Construct first sentence: 
-    const firstSent = `You are in a ${num} ${time} cycle of ${firstPhrase}. `;
+    const firstSent = `You are in a ${num} ${time} cycle of ${firstPhrase}.`;
 
     /*Second sentence 
     Second sentences take the format: 
@@ -90,7 +90,7 @@ function getFortune() {
     const secondSent = `${directive} ${secondPhrase}.`;
     
     //construct full fortune
-    const fortune = `~~~~~~~~~~~ YOUR FOTUNE AWAITS ~~~~~~~~~~~~\n${firstSent} ${secondSent}`;
+    const fortune = `~~~~~~~~~~~ YOUR FOTUNE AWAITS ~~~~~~~~~~~~\n${firstSent}\n${secondSent}`;
     return fortune
 }
 

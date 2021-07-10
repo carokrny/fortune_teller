@@ -35,8 +35,8 @@ You are in a 7 week cycle of energy in your erotic eigth house.
 */
 
 // Bad Relationships (B): 
-const bFirstPhrases = ["bad luck", "negative energy in your third house, weakening communication",
-"tumult in your eight house straining relationships"];
+const bFirstPhrases = ["bad luck", "negative energy in your third house that is weakening communication",
+"tumult in your eigth house is straining your relationships"];
 /*
 You are in a 4 month cycle of bad luck.
 You are in a 5 week cycle of negative energy in your third house, weakening communication.
