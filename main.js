@@ -4,6 +4,8 @@
     Fortunes contain two sentences. Each sentence contains one or more randomly 
     selected phrases corresponding to a random topic. 
     Phrases are grouped by topic to avoid a contradictory fortune. 
+
+    To run from command line: Node main.js
 */
 
 const phraseBank = require('./phrase-bank.js');
@@ -79,7 +81,7 @@ function getFortune() {
     /*Second sentence 
     Second sentences take the format: 
     "[second person directive] [second phrase]."
-    E.g.: "You should be alone with yourself."
+    E.g.: "You should be alone wclearith yourself."
     */
     // determine decond person directive
     const directive = randPhrase(['You should', 'Let yourself']);
