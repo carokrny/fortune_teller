@@ -68,7 +68,7 @@ function getFortune() {
     E.g: "You are in a 2 week cycle cycle of good luck."
     */
     // determine span of cycle for first sentence
-    const num = getRand(10);
+    const num = 1 + getRand(9);
     const time = randTimeSpan();
     // determine first phrase
     const firstPhrases = getPhrases('first', topic);
