@@ -15,6 +15,8 @@ Fortunes created have a first sentence and a second sentence. Both sentences inc
 
 The fortunes are displayed on a webpage, using CSS and HTML. 
 
+This project helped me learn skills through building, including, import and export in JavaScript and require() for Node.js, using git in the command line for version control, array manipulations such as .push() and .reduce(), switch statements, randomization, string literals, JavaScript objects and dot notation for accessing properties, creating helper functions and employing a separation of concerns, manipulating the document object model (DOM) using JavaScript, and using a KanBan board to keep track of tasks and progress.
+
 ## Technologies
 Project is created with:
 * VS Code version 1.58.1
