@@ -103,7 +103,7 @@ function getFortune() {
     let fortuneElement = document.getElementById("fortune")
     fortuneElement.innerHTML = fortune;
     fortuneElement.style.display="block";
-    document.getElementById("button").innerHTML = "Tell another forune";    
+    document.getElementById("button").innerHTML = "Tell another fortune";    
 }
 
 document.getElementById("button").addEventListener("click", getFortune)

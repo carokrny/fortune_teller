@@ -25,14 +25,22 @@ html {
 }
 
 #button {
-    background-color: rgb(44, 45, 49);
-    color: lightgrey;
+    background-color: rgb(76, 77, 82);
+    opacity: 0.8;
+    color: white;
     padding: 1rem;
     font-size: 1rem;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#button:hover {
+    transition: 0.5s;
+    opacity: 1;
 }
 
 #fortune {
     display: none;
     white-space: pre-line;
     line-height: 2;
+    padding: 0 10rem;
 }
