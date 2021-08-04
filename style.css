@@ -46,12 +46,15 @@ html {
 
 @media only screen and (max-width: 580px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
     }
 
     #button {
-        font-size: 0.75rem;
-        padding: 0.75rem;
+        font-size: 1.2rem;
     }
     
     .wrapper {
