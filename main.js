@@ -97,13 +97,12 @@ function getFortune() {
     const secondSent = `${directive} ${secondPhrase}.`;
     
     //construct full fortune
-    const fortune = `${firstSent}\n${secondSent}`;
+    const fortune = `${firstSent}\n\n${secondSent}`;
 
     //add JS to DOM 
     //make fortune appear
-    let fortuneElement = document.getElementById("fortune")
-    fortuneElement.innerHTML = fortune;
-    fortuneElement.style.display="block";
+    document.getElementById("fortune").innerHTML = fortune;
+    document.getElementById("fortune-wrapper").style.display="block";
     //update text of button
     document.getElementById("button").innerHTML = "Tell another fortune";    
 }

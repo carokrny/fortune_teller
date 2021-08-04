@@ -16,11 +16,8 @@ html {
 
 /* element styling */
 
-#landing, #button, #fortune {
-    margin-top: 7rem;
-}
-
-#landing {
+.wrapper {
+    padding-top: 7rem;
     width: 100%;
 }
 
@@ -37,9 +34,31 @@ html {
     background-color: rgb(41, 43, 46);
 }
 
-#fortune {
+#fortune-wrapper {
     display: none;
+}
+
+#fortune {
     white-space: pre-line;
-    line-height: 2;
-    padding: 0 10rem;
+    line-height: 1.5;
+    padding: 0 15%;
+}
+
+@media only screen and (max-width: 580px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    #button {
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+    
+    .wrapper {
+        padding-top: 4rem;
+    }
 }
