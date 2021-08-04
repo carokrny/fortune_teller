@@ -1,11 +1,9 @@
 /* --MAIN of FORTUNE MESSAGER--
-    Node.js app to produce tell your fortune. 
 
     Fortunes contain two sentences. Each sentence contains one or more randomly 
     selected phrases corresponding to a random topic. 
     Phrases are grouped by topic to avoid a contradictory fortune. 
 
-    To run from command line: Node main.js
 */
 
 import { getPhrases } from './phrase-bank.js';
