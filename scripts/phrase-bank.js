@@ -171,5 +171,3 @@ Exported function to get and return an array of phrases.
             break;
     }
 }
-
-//module.exports.getPhrases = getPhrases;
