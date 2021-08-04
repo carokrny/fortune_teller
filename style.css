@@ -25,9 +25,8 @@ html {
 }
 
 #button {
-    background-color: rgb(76, 77, 82);
-    opacity: 0.8;
-    color: white;
+    background-color: rgb(60, 61, 65);
+    color: lightgrey;
     padding: 1rem;
     font-size: 1rem;
     font-family: 'Major Mono Display', monospace;
@@ -35,7 +34,7 @@ html {
 
 #button:hover {
     transition: 0.5s;
-    opacity: 1;
+    background-color: rgb(41, 43, 46);
 }
 
 #fortune {

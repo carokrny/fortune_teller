@@ -100,9 +100,11 @@ function getFortune() {
     const fortune = `${firstSent}\n${secondSent}`;
 
     //add JS to DOM 
+    //make fortune appear
     let fortuneElement = document.getElementById("fortune")
     fortuneElement.innerHTML = fortune;
     fortuneElement.style.display="block";
+    //update text of button
     document.getElementById("button").innerHTML = "Tell another fortune";    
 }
 
