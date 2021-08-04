@@ -46,18 +46,22 @@ html {
 
 @media only screen and (max-width: 580px) {
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     #button {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     
     .wrapper {
         padding-top: 4rem;
+    }
+
+    #fortune-wrapper {
+        padding-top: 6rem;
     }
 }
