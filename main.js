@@ -64,7 +64,8 @@ First phrases are each associated with 1 topic.
 Second phrases can be associated with multiple topics. 
 */
 // getFortune returns a sentence representing a mystery fortune. 
-export function getFortune() {
+
+function getFortune() {
    // Determine topic of fortune (good, bad, etc.)
    const topic = randTopic();
 
@@ -97,8 +98,12 @@ export function getFortune() {
     
     //construct full fortune
     const fortune = `${firstSent}\n${secondSent}`;
-    console.log("check check");
-    document.getElementById("fortune").innerHTML = fortune;
+
+    //add JS to DOM 
+    let fortuneElement = document.getElementById("fortune")
+    fortuneElement.innerHTML = fortune;
+    fortuneElement.style.display="block";
+    document.getElementById("button").innerHTML = "Tell another forune";    
 }
 
-document.getElementById("button").onlcick = getFortune();
+document.getElementById("button").addEventListener("click", getFortune)

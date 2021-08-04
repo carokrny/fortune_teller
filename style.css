@@ -1,0 +1,38 @@
+/* general styling */
+
+html {
+    font-size: 16px;
+    font-family: 'Major Mono Display', monospace;
+    background-color: black;
+    color:lightgrey;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* element styling */
+
+#landing, #button, #fortune {
+    margin-top: 7rem;
+}
+
+#landing {
+    width: 100%;
+}
+
+#button {
+    background-color: rgb(44, 45, 49);
+    color: lightgrey;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#fortune {
+    display: none;
+    white-space: pre-line;
+    line-height: 2;
+}
