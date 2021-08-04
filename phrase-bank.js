@@ -146,7 +146,7 @@ Exported function to get and return an array of phrases.
     - topic: 'G', 'B', 'P', or 'C', representing a topic
     Returns an array of ordinalNum phrases corresponding to topic. 
 */
-function getPhrases (ordinalNum, topic){
+ export function getPhrases (ordinalNum, topic){
     ordinalNum = ordinalNum.toLowerCase();
     topic = topic.toUpperCase();
     switch (ordinalNum) {
@@ -172,4 +172,4 @@ function getPhrases (ordinalNum, topic){
     }
 }
 
-module.exports.getPhrases = getPhrases;
+//module.exports.getPhrases = getPhrases;

@@ -8,8 +8,12 @@
     To run from command line: Node main.js
 */
 
+import { getPhrases } from './phrase-bank.js';
+
+/* Node functionality:
 const phraseBank = require('./phrase-bank.js');
 const { getPhrases } =  phraseBank;
+*/
 
 // --Helper Functions-- 
 
@@ -60,7 +64,7 @@ First phrases are each associated with 1 topic.
 Second phrases can be associated with multiple topics. 
 */
 // getFortune returns a sentence representing a mystery fortune. 
-function getFortune() {
+export function getFortune() {
    // Determine topic of fortune (good, bad, etc.)
    const topic = randTopic();
 
@@ -92,8 +96,9 @@ function getFortune() {
     const secondSent = `${directive} ${secondPhrase}.`;
     
     //construct full fortune
-    const fortune = `~~~~~~~~~~~ YOUR FORTUNE AWAITS ~~~~~~~~~~~~\n${firstSent}\n${secondSent}`;
-    return fortune
+    const fortune = `${firstSent}\n${secondSent}`;
+    console.log("check check");
+    document.getElementById("fortune").innerHTML = fortune;
 }
 
-console.log(getFortune());
+document.getElementById("button").onlcick = getFortune();
