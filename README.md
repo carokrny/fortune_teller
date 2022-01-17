@@ -21,10 +21,10 @@ This project helped me learn skills through building, including, import and expo
 Project is created with:
 * VS Code version 1.58.1
 * Git version 2.30.1
-* Node version 14.17.1 for testing JavaScript 
+* Node version 14.17.1 
 
 ## Setup
-This project can be viewed at http://carokrny.github.io/fortune_teller. Click through to have your fortune told! 
+This project can be viewed at [http://carokrny.github.io/fortune_teller](http://carokrny.github.io/fortune_teller). Click through to have your fortune told! 
 
 ## Inspiration 
 This project is based on Codecademy's Mixed Messages Project. Codecademy provided the broad prompt of a random message genorator. All code written from scratch, and HTML and CSS are extensions of the original JavaScript console project. 
