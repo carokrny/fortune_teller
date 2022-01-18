@@ -16,7 +16,44 @@ html {
 
 /* twinkling background styling */
 
+.stars, .twinkles, .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
+@keyframes move-twinkles {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}
+
+@keyframes move-clouds {
+    from {background-position: 0 0;}
+    to {background-position: 10000px, 0;}
+}
+
+.stars {
+    background: black url('media/stars.png') repeat top center;
+    z-index: 0;
+}
+
+.twinkles {
+    background: transparent url('media/twinkles.png') repeat top center;
+    z-index: 1;
+    animation: move-twinkles 200s linear infinite;
+}
+
+.clouds {
+    background: transparent url('media/clouds.png') repeat top center;
+    opacity: .5;
+    z-index: 2;
+    animation: move-clouds 200s linear infinite;
+}
 
 
 /* element wrapper styling */
@@ -26,6 +63,8 @@ html {
     flex-direction: column;
     height: 100vh;
     justify-content: space-evenly;
+    position: relative;
+    z-index: 3;
 }
 
 .wrapper {
@@ -33,14 +72,26 @@ html {
 }
 
 
+/* Content styling */
+
+h1 {
+    font-size: 2rem;
+    z-index: 3;
+}
+
+p {
+    z-index: 4;
+}
+
+button {
+    z-index: 5;
+}
+
+
 /* Spacing for top and bottom of site */
 
 #intro {
     padding-top: 20vh;
-}
-
-h1 {
-    font-size: 2rem;
 }
 
 #foot {

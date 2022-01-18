@@ -6,6 +6,8 @@
 * [Setup](#setup)
 * [Inspiration](#inspiration)
 
+![screen grab of project in browser](media/screenshot.png)
+
 ## General information
 This is a JavaScript project to generate a fortune with multiple randomized sub-strings, so each fortune is (pretty) unique. In total, there are 6,804 unique fortunes.  
 
@@ -27,4 +29,6 @@ Project is created with:
 This project can be viewed at [http://carokrny.github.io/fortune_teller](http://carokrny.github.io/fortune_teller). Click through to have your fortune told! 
 
 ## Inspiration 
-This project is based on Codecademy's Mixed Messages Project. Codecademy provided the broad prompt of a random message genorator. All code written from scratch, and HTML and CSS are extensions of the original JavaScript console project. 
+This project is based on Codecademy's Mixed Messages Project. Codecademy provided the broad prompt of a random message genorator. Starter code was not provided in this project. HTML & CSS was added later to turn the console-based project into a website.
+
+Thank you to [Carla Codes](https://github.com/Carla-Codes) for the *excellent* [tutorial](https://www.youtube.com/watch?v=0t6Dmp70kTw) on making a twinkling night sky backgroud. 
