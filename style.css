@@ -14,12 +14,57 @@ html {
     box-sizing: border-box;
 }
 
-/* element styling */
+/* twinkling background styling */
+
+
+
+
+/* element wrapper styling */
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+}
 
 .wrapper {
-    padding-top: 7rem;
     width: 100%;
 }
+
+
+/* Spacing for top and bottom of site */
+
+#intro {
+    padding-top: 20vh;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#foot {
+    padding: 0 10vw 30vh 10vw;     
+}
+
+
+/* Set fortune as not visible, change through JS */
+
+#fortune {
+    display: none;
+    min-height: 9rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fortune-text {
+    white-space: pre-line;
+    line-height: 1.5;
+    padding: 0 15vw;
+}
+
+
+/* Button styling */
 
 #button {
     background-color: rgb(60, 61, 65);
@@ -34,14 +79,36 @@ html {
     background-color: rgb(41, 43, 46);
 }
 
-#fortune-wrapper {
-    display: none;
-}
 
-#fortune {
-    white-space: pre-line;
-    line-height: 1.5;
-    padding: 0 15%;
+/* Vertical styling adjustments */
+
+@media only screen and (max-height: 900px) {
+    #intro {
+        padding-top: 15vh;
+    }
+
+    #foot {
+        padding: 0 10vw 15vh 10vw;     
+    }
+} 
+
+@media only screen and (max-height: 450px) {
+    #intro {
+        padding-top: 10vh;
+    }
+
+    #foot {
+        padding: 0 10vw 10vh 10vw;     
+    }
+} 
+
+
+/* Horizontal styling adjustments */ 
+
+@media only screen and (max-width: 650px) {
+    #fortune {
+        min-height: 14rem;
+    }
 }
 
 @media only screen and (max-width: 580px) {
@@ -53,15 +120,27 @@ html {
         font-size: 1.25rem;
     }
 
+    #fortune-text {
+        padding: 0 5vw;
+    }
+
     #button {
         font-size: 1rem;
     }
-    
-    .wrapper {
-        padding-top: 6rem;
+}
+
+@media only screen and (max-width: 450px) {
+    #fortune {
+        min-height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    h1 {
+        font-size: 1.5rem;
     }
 
-    #fortune-wrapper {
-        padding-top: 6rem;
+    p {
+        font-size: 1rem;
     }
 }

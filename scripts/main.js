@@ -99,8 +99,8 @@ function getFortune() {
 
     //add JS to DOM 
     //make fortune appear
-    document.getElementById("fortune").innerHTML = fortune;
-    document.getElementById("fortune-wrapper").style.display="block";
+    document.getElementById("fortune-text").innerHTML = fortune;
+    document.getElementById("fortune").style.display="flex";
     //update text of button
     document.getElementById("button").innerHTML = "Tell another fortune";    
 }
